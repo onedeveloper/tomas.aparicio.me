@@ -1,7 +1,6 @@
 $(function () {
   var intro = [
     'Type one of the following commands:',
-    '- help',
     '- bio',
     '- links',
     '- projects',
@@ -11,9 +10,28 @@ $(function () {
     '- location',
     '- photo',
     '- contact',
+    '- help',
+    '- exit'
   ].join('\n') 
 
   var jqconsole = $('#console').jqconsole(intro + '\n', 'guest@localhost ~> ')
+
+  startPrompt()
+
+  var commands = {
+    links: links,
+    projects: projects,
+    powers: superpowers,
+    photo: photo,
+    help: help,
+    h: help,
+    bio: bio,
+    philosophy: philosophy,
+    resume: resume,
+    location: location,
+    contact: contact,
+    exit: exit
+  }
 
   function startPrompt () {
     // Start the prompt with history enabled.
@@ -25,40 +43,12 @@ $(function () {
     })
   }
 
-  startPrompt()
-
   function cmd (name) {
-    if (name === 'links') {
-      return links()
-    }
-    if (name === 'projects') {
-      return projects()
-    }
-    if (name === 'photo') {
-      return photoAscii
-    }
-    if (name === 'help' || name === 'h') {
-      return intro
-    }
-    if (name === 'bio') {
-      return bio()
-    }
-    if (name === 'powers') {
-      return superpowers()
-    }
-    if (name === 'philosophy') {
-      return philosophy()
-    }
-    if (name === 'resume') {
-      return resume()
-    }
-    if (name === 'location') {
-      return location()
-    }
-    if (name === 'contact') {
-      return contact()
-    }
-    return unsupported()
+    return (commands[name] || unsupported)()
+  }
+
+  function help () {
+    return intro
   }
 
   function unsupported () {
@@ -85,16 +75,21 @@ $(function () {
       '25 yo. Full stack dev.',
       'I code for fun. I code for passion.',
       'I like clean and simple code. I enjoy creating things with code.',
-      'Open source obssesive-compulsive coder.',
+      'Open source obsessive-compulsive coder.',
     ].join('\n')
   }
 
   function philosophy () {
     return [
-      '- Try to be humble',
-      '- Invest time building new things.',
-      '- Refuse to deal with assholes.',
+      '- Try to keep humble.',
+      '- Invest time building things that you believe in.',
+      '- Trust your instincts.',
+      '- Put passion in every thing you do.',
+      '- Don\'t waste time with assholes. Unfortunately there\'re a bunch out there.',
       '- Reinveting the wheel is not implicitely bad, you can learn a lot doing it.',
+      '- Fail a lot. Fail often. Do it as soon as possible, do it quickly and learn the lesson.',
+      '- Be patient. Be persistent.',
+      '- Trust people until they give you a reason not to.'
     ].join('\n')
   }
 
@@ -102,6 +97,12 @@ $(function () {
     return [
       'Virtually: github.com/h2non',
       'Physically: Dublin, Ireland',
+    ].join('\n')
+  }
+
+  function resume () {
+    return [
+      'You already have it. Think seriously about this.',
     ].join('\n')
   }
 
@@ -126,6 +127,15 @@ $(function () {
       '- Italian (####-)',
       '- Catalan (####-)'
     ].join('\n')
+  }
+
+  function exit () {
+    window.location.href = 'https://www.google.com'
+    return 'Exited.'
+  }
+
+  function photo () {
+    return photoAscii
   }
 
   function projects () {

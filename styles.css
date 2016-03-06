@@ -12,11 +12,13 @@ html, body {
   width: 100%;
   position: relative;
   background-color: black;
-  border: 2px solid #CCC;
   margin: 0 auto;
 }
 a {
   color: #0d0;
+}
+a:hover {
+  text-decoration: none;
 }
 /* The inner console element. */
 .jqconsole {
