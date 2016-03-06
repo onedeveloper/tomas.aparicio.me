@@ -1,0 +1,27 @@
+{
+  "name": "tomas.aparicio.me",
+  "version": "1.0.0",
+  "description": "Personal site",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard index.js",
+    "start": "http-server -p 8080 .",
+    "build": "browserify --exports require --standalone terminal --ignore request --ignore ./node --entry ./index.js > ./site.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h2non/tomas.aparicio.me.git"
+  },
+  "author": "Tomas Aparicio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h2non/tomas.aparicio.me/issues"
+  },
+  "homepage": "https://github.com/h2non/tomas.aparicio.me#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "http-server": "^0.9.0",
+    "standard": "^6.0.7"
+  }
+}
