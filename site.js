@@ -148,6 +148,8 @@ $(function () {
       '- <a href="//github.com/h2non/toxy">toxy</a> - 2015 - Hackable HTTP proxy to simulate server failure scenarios',
       '- <a href="//github.com/h2non/imaginary">imaginary</a> - 2015 - Fast HTTP microservice for high-level image processing.',
       '- <a href="//github.com/h2non/bimg">bimg</a> - 2015 - Go package for fast image processing using libvips via C bindings.',
+      '- <a href="//github.com/h2non/videoshow">videoshow</a> - 2015 - Easily create video slideshows using ffmpeg.',
+      '- <a href="//github.com/h2non/youtube-video-api">youtube-api</a> - 2015 - Simplified Youtube API bindings for node.js.',
       '- <a href="//github.com/h2non/filetype">filetype</a> - 2015 - File type checking via magic numbers signature in Go.',
       '- <a href="//github.com/h2non/semver.c">semver.c</a> - 2015 - Semantic versioning parser in ANSI C.',
       '- <a href="//resilient-http.github.io">resilient</a> - 2014 - Fault-tolerant, reactive HTTP client.',      
