@@ -6,7 +6,6 @@ $(function () {
     '- projects',
     '- powers',
     '- philosophy',
-    '- resume',
     '- location',
     '- photo',
     '- contact',
