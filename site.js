@@ -71,9 +71,10 @@ $(function () {
 
   function bio () {
     return [
-      '25 yo. Full stack dev.',
+      '25 yo. Full stack dev. Geek.',
       'I code for fun. I code for passion.',
       'I like clean and simple code. I enjoy creating things with code.',
+      'I like to create usable software that simplify things.',
       'Open source obsessive-compulsive coder.',
     ].join('\n')
   }
@@ -85,10 +86,11 @@ $(function () {
       '- Trust your instincts.',
       '- Put passion in every thing you do.',
       '- Don\'t waste time with assholes. Unfortunately there\'re a bunch out there.',
-      '- Reinveting the wheel is not implicitely bad, you can learn a lot doing it.',
       '- Fail a lot. Fail often. Do it as soon as possible, do it quickly and learn the lesson.',
+      '- Reinveting the wheel is not implicitely bad, you can learn a lot doing it.',
+      '- Keep close people you want to copy and learn from.',
+      '- Trust people until they give you a reason not to.',
       '- Be patient. Be persistent.',
-      '- Trust people until they give you a reason not to.'
     ].join('\n')
   }
 
