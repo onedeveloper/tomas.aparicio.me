@@ -1,6 +1,6 @@
 $(function () {
   var intro = [
-    'Commands available:',
+    'Type one of the following commands:',
     '- help',
     '- bio',
     '- links',
@@ -10,6 +10,7 @@ $(function () {
     '- resume',
     '- location',
     '- photo',
+    '- contact',
   ].join('\n') 
 
   var jqconsole = $('#console').jqconsole(intro + '\n', 'guest@localhost ~> ')
@@ -54,11 +55,20 @@ $(function () {
     if (name === 'location') {
       return location()
     }
+    if (name === 'contact') {
+      return contact()
+    }
     return unsupported()
   }
 
   function unsupported () {
     return 'Unsupported command.\n\n' + intro
+  }
+
+  function contact () {
+    return [
+      'Email: tomas {at} aparicio.me'
+    ].join('\n')
   }
 
   function links () {
