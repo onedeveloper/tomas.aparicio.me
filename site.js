@@ -139,8 +139,32 @@ $(function () {
 
   function projects () {
     return [
-      '- <a href="http://google.es">rocky</a> - node.js - Extensible middleware-oriented HTTP/WebSocket proxy',
-      '- toxy - node.js - Hackable HTTP proxy to simulate complex server failure scenarios'
+      'Relevant open source projects:',
+      '- <a href="//github.com/h2non/gentleman">gentleman</a> - 2016 - Full-featured plugin-driven HTTP client toolkit for Go.',
+      '- <a href="//github.com/h2non/gock">gock</a> - 2016 - Versatile HTTP mocking made easy for Go.',
+      '- <a href="//github.com/jsdocs/jsdocs">jsdocs</a> - 2015 - Free documentation hosting for the JS community.',
+      '- <a href="//github.com/h2non/theon">theon</a> - 2015 - Easily create expressive and extensible API client in node.js and browsers.',
+      '- <a href="//github.com/h2non/rocky">rocky</a> - 2015 - Extensible middleware-oriented HTTP/WebSocket proxy',
+      '- <a href="//github.com/h2non/toxy">toxy</a> - 2015 - Hackable HTTP proxy to simulate server failure scenarios',
+      '- <a href="//github.com/h2non/imaginary">imaginary</a> - 2015 - Fast HTTP microservice for high-level image processing.',
+      '- <a href="//github.com/h2non/bimg">bimg</a> - 2015 - Go package for fast image processing using libvips via C bindings.',
+      '- <a href="//github.com/h2non/filetype">filetype</a> - 2015 - File type checking via magic numbers signature in Go.',
+      '- <a href="//github.com/h2non/semver.c">semver.c</a> - 2015 - Semantic versioning parser in ANSI C.',
+      '- <a href="//resilient-http.github.io">resilient</a> - 2014 - Fault-tolerant, reactive HTTP client.',      
+      '- <a href="//github.com/h2non/nar">nar</a> - 2014 - Self-contained executable node.js apps.',
+      '- <a href="//github.com/h2non/thread.js">thread.js</a> - 2014 - Frictionless multithreading in browsers.',
+      '- <a href="//github.com/innotech/dployr">dployr</a> - 2014 - Cloud deployment made simple in Ruby.',
+      '- <a href="//lil-js.github.io">lil.js</a> - 2014 - A collection of tiny JavaScript modules to do colossal things.',
+      '- <a href="//oli-lang.github.io">oli-lang</a> - 2014 - Declarative and minimalist description language for humans.',
+      '- <a href="//github.com/h2non/oml">oml</a> - 2014 - Mimimal template engine using Oli language (inspired by Jade).',
+      '- <a href="//github.com/h2non/hu">hu</a> - 2014 - Functional library written with Clojure-like language for JS environments.',
+      '- <a href="//github.com/h2non/promitto">promitto</a> - 2014 - Functional Promise implementation for JS environments.',
+      '- <a href="//github.com/h2non/injecty">injecty</a> - 2014 - Minimalist, functional dependency injection library (inspired by Angular DI).',
+      '- <a href="//github.com/frontstack/frontstack">frontstack</a> - 2013 - Portable complete web development environment made easy.',
+      '- <a href="//github.com/AdesisNetlife/authrc">authrc</a> - 2013 - Configuration file specification to store credentials safety.',
+      '- <a href="//github.com/AdesisNetlife/croak">croak</a> - 2013 - Grunt made easy for large projects.',
+      '- <a href="//github.com/h2non/jshashes">jshashes</a> - 2012 - Cryptographic hashing library for node.js and browsers.',
+      '- <a href="//sourceforge.net/projects/opew/">opew</a> - 2011 - Full stack, portable development environment for GNU/Linux.',
     ].join('\n')
   }
 })
