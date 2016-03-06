@@ -1,36 +1,46 @@
 $(function () {
   var intro = [
     'Type one of the following commands:',
-    '- bio',
-    '- links',
-    '- projects',
-    '- powers',
-    '- philosophy',
-    '- location',
-    '- photo',
-    '- contact',
-    '- help',
-    '- exit'
+    '- bio (b)',
+    '- links (l)',
+    '- projects (p)',
+    '- superpowers (s)',
+    '- philosophy (o)',
+    '- location (l)',
+    '- photo (i)',
+    '- contact (c)',
+    '- help (h)',
+    '- exit (x)',
   ].join('\n') 
-
-  var jqconsole = $('#console').jqconsole(intro + '\n', 'guest@localhost ~> ')
-
-  startPrompt()
 
   var commands = {
     links: links,
+    l: links,
     projects: projects,
-    powers: superpowers,
+    p: projects,
+    superpowers: superpowers,
+    s: superpowers,
     photo: photo,
+    i: photo,
     help: help,
     h: help,
     bio: bio,
+    b: bio,
     philosophy: philosophy,
-    resume: resume,
+    o: philosophy,
     location: location,
+    l: location,
     contact: contact,
-    exit: exit
+    c: contact,
+    exit: exit,
+    x: exit
   }
+
+  var jqconsole = $('#console').jqconsole('', 'guest@localhost ~> ')
+  jqconsole.Append($('<div>' + cmd('photo') + '</div>\n'))
+  jqconsole.Append($('<div>Tomas Aparicio\'s interactive site</div><br>\n').addClass('jqconsole-prompt'))
+  jqconsole.Append($('<div>' + intro + '</div><br>\n'))
+  startPrompt()
 
   function startPrompt () {
     // Start the prompt with history enabled.
