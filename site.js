@@ -1,5 +1,5 @@
 $(function () {
-  var intro = [
+  var intro = join([
     'Type one of the following commands:',
     '- bio (b)',
     '- links (l)',
@@ -11,7 +11,7 @@ $(function () {
     '- contact (c)',
     '- help (h)',
     '- exit (x)',
-  ].join('\n') 
+  ])
 
   var commands = {
     links: links,
@@ -65,32 +65,30 @@ $(function () {
   }
 
   function contact () {
-    return [
-      'Email: tomas {at} aparicio.me'
-    ].join('\n')
+    return 'Email: tomas {at} aparicio.me'
   }
 
   function links () {
-    return [
+    return join([
       '- <a href="http://github.com/h2non">github</a>',
       '- <a href="http://twitter.com/h2non">twitter</a>',
       '- <a href="https://stackoverflow.com/users/4100223/tomas">stackoverflow</a>',
       '- <a href="https://ie.linkedin.com/in/tomasaparicio">linkedin</a>',
-    ].join('\n')
+    ])
   }
 
   function bio () {
-    return [
+    return join([
       '25 yo. Full stack dev. Geek.',
       'I code for fun. I code for passion.',
       'I like clean and simple code. I enjoy creating things with code.',
       'I like to create usable software that simplify things.',
       'Open source obsessive-compulsive coder.',
-    ].join('\n')
+    ])
   }
 
   function philosophy () {
-    return [
+    return join([
       '- Try to keep humble.',
       '- Invest time building things that you believe in.',
       '- Trust your instincts.',
@@ -101,24 +99,22 @@ $(function () {
       '- Keep close people you want to copy and learn from.',
       '- Trust people until they give you a reason not to.',
       '- Be patient. Be persistent.',
-    ].join('\n')
+    ])
   }
 
   function location () {
-    return [
+    return join([
       'Virtually: github.com/h2non',
       'Physically: Dublin, Ireland',
-    ].join('\n')
+    ])
   }
 
   function resume () {
-    return [
-      'You already have it. Think seriously about this.',
-    ].join('\n')
+    return 'You already have it. Think seriously about this.'
   }
 
   function superpowers () {
-    return [
+    return join([
       'Languages:',
       '- JavaScript (#####)',
       '- Go (####-)',
@@ -133,13 +129,15 @@ $(function () {
       '- Scala (#----)',
       '- Haskell (#----)',
       '- Erlang (#----)',
+      '- Rust (#----)',
+      '- Elixir (#----)',
       '',
       'Human Languages:',
       '- Spanish (#####)',
       '- English (###--)',
       '- Italian (####-)',
       '- Catalan (####-)'
-    ].join('\n')
+    ])
   }
 
   function exit () {
@@ -152,7 +150,7 @@ $(function () {
   }
 
   function projects () {
-    return [
+    return join([
       'Relevant personal open source projects:',
       '- <a href="//github.com/h2non/gentleman">gentleman</a> - 2016 - Full-featured plugin-driven HTTP client toolkit for Go.',
       '- <a href="//github.com/h2non/gock">gock</a> - 2016 - Versatile HTTP mocking made easy for Go.',
@@ -181,10 +179,10 @@ $(function () {
       '- <a href="//github.com/AdesisNetlife/croak">croak</a> - 2013 - Grunt made easy for large projects.',
       '- <a href="//github.com/h2non/jshashes">jshashes</a> - 2012 - Cryptographic hashing library for node.js and browsers.',
       '- <a href="//sourceforge.net/projects/opew/">opew</a> - 2011 - Full stack, portable development environment for GNU/Linux.',
-    ]
-    .concat([
-      // '\nCompany projects:',
-      // '- <a href="//www.guidecentr.al">Guidecentral</a> - 2015-2016 - Powered by: node.js, go, ruby, java, swift'
-    ]).join('\n')
+    ])
+    
+    function join (arr) {
+      return arr.join('\n')
+    }
   }
 })
