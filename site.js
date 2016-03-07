@@ -178,11 +178,12 @@ $(function () {
       '- <a href="//github.com/AdesisNetlife/authrc">authrc</a> - 2013 - Configuration file specification to store credentials safety.',
       '- <a href="//github.com/AdesisNetlife/croak">croak</a> - 2013 - Grunt made easy for large projects.',
       '- <a href="//github.com/h2non/jshashes">jshashes</a> - 2012 - Cryptographic hashing library for node.js and browsers.',
+      '- <a href="//turismodecastellon.actiopolis.com">actiomaps</a> - 2012 - ExtJS + Google Maps custom framework to build GIS web apps easily.',
       '- <a href="//sourceforge.net/projects/opew/">opew</a> - 2011 - Full stack, portable development environment for GNU/Linux.',
     ])
-    
-    function join (arr) {
-      return arr.join('\n')
-    }
+  }
+
+  function join (arr) {
+    return arr.join('\n')
   }
 })
