@@ -92,6 +92,7 @@ $(function () {
       '- Try to keep humble.',
       '- Invest time building things that you believe in.',
       '- Trust your instincts.',
+      '- Curiosity is the road to the knowledge. Keep it as much as you can.',
       '- Put passion in every thing you do.',
       '- Don\'t waste time with assholes. Unfortunately there\'re a bunch out there.',
       '- Fail a lot. Fail often. Do it as soon as possible, do it quickly and learn the lesson.',
