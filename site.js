@@ -80,9 +80,8 @@ $(function () {
   function bio () {
     return join([
       '25 yo. Full stack dev. Geek.',
-      'I code for fun. I code for passion.',
-      'I like clean and simple code. I enjoy creating things with code.',
-      'I like to create usable software that simplify things.',
+      'I code for fun.',
+      'I like clean and elegant code.',
       'Open source obsessive-compulsive coder.',
     ])
   }
