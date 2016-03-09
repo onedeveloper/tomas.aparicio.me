@@ -134,9 +134,9 @@ $(function () {
       '',
       'Human Languages:',
       '- Spanish (#####)',
-      '- English (###--)',
+      '- English (####-)',
       '- Italian (####-)',
-      '- Catalan (####-)'
+      '- Catalan (#####)'
     ])
   }
 
