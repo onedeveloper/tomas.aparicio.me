@@ -1,16 +1,15 @@
 $(function () {
   var intro = join([
     'Type one of the following commands:',
-    '- bio (b)',
-    '- links (l)',
-    '- projects (p)',
-    '- superpowers (s)',
-    '- philosophy (o)',
-    '- location (l)',
-    '- photo (i)',
-    '- contact (c)',
-    '- help (h)',
-    '- exit (x)',
+    '- (b)io',
+    '- (l)inks',
+    '- (p)rojects',
+    '- (s)uperpowers',
+    '- (ph)ilosophy',
+    '- (lo)cation',
+    '- (c)ontact',
+    '- (h)elp',
+    '- (e)xit',
   ])
 
   var commands = {
@@ -21,19 +20,18 @@ $(function () {
     superpowers: superpowers,
     s: superpowers,
     photo: photo,
-    i: photo,
     help: help,
     h: help,
     bio: bio,
     b: bio,
     philosophy: philosophy,
-    o: philosophy,
+    ph: philosophy,
     location: location,
-    l: location,
+    lo: location,
     contact: contact,
     c: contact,
     exit: exit,
-    x: exit
+    e: exit
   }
 
   var jqconsole = $('#console').jqconsole('', 'guest@localhost ~> ')
@@ -80,9 +78,8 @@ $(function () {
   function bio () {
     return join([
       '25 yo. Full stack dev. Geek.',
-      'I code for fun. I code for passion.',
-      'I like clean and simple code. I enjoy creating things with code.',
-      'I like to create usable software that simplify things.',
+      'I code for fun.',
+      'I like clean and elegant code.',
       'Open source obsessive-compulsive coder.',
     ])
   }
@@ -92,6 +89,7 @@ $(function () {
       '- Try to keep humble.',
       '- Invest time building things that you believe in.',
       '- Trust your instincts.',
+      '- Curiosity is the road to the knowledge. Keep it as much as you can.',
       '- Put passion in every thing you do.',
       '- Don\'t waste time with assholes. Unfortunately there\'re a bunch out there.',
       '- Fail a lot. Fail often. Do it as soon as possible, do it quickly and learn the lesson.',
@@ -134,9 +132,9 @@ $(function () {
       '',
       'Human Languages:',
       '- Spanish (#####)',
-      '- English (###--)',
+      '- English (####-)',
       '- Italian (####-)',
-      '- Catalan (####-)'
+      '- Catalan (#####)'
     ])
   }
 
