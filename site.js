@@ -1,16 +1,15 @@
 $(function () {
   var intro = join([
     'Type one of the following commands:',
-    '- bio (b)',
-    '- links (l)',
-    '- projects (p)',
-    '- superpowers (s)',
-    '- philosophy (o)',
-    '- location (lo)',
-    '- photo (i)',
-    '- contact (c)',
-    '- help (h)',
-    '- exit (x)',
+    '- (b)io',
+    '- (l)inks',
+    '- (p)rojects',
+    '- (s)uperpowers',
+    '- (ph)ilosophy',
+    '- (lo)cation',
+    '- (c)ontact',
+    '- (h)elp',
+    '- (e)xit',
   ])
 
   var commands = {
@@ -21,19 +20,18 @@ $(function () {
     superpowers: superpowers,
     s: superpowers,
     photo: photo,
-    i: photo,
     help: help,
     h: help,
     bio: bio,
     b: bio,
     philosophy: philosophy,
-    o: philosophy,
+    ph: philosophy,
     location: location,
     lo: location,
     contact: contact,
     c: contact,
     exit: exit,
-    x: exit
+    e: exit
   }
 
   var jqconsole = $('#console').jqconsole('', 'guest@localhost ~> ')
