@@ -150,6 +150,7 @@ $(function () {
   function projects () {
     return join([
       'Relevant personal open source projects:',
+      '- <a href="//vinxi.github.io">vinxi</a> - 2016 - Hackable, highly modular web proxy toolkit written in Go.',
       '- <a href="//github.com/h2non/gentleman">gentleman</a> - 2016 - Full-featured plugin-driven HTTP client toolkit for Go.',
       '- <a href="//github.com/h2non/gock">gock</a> - 2016 - Versatile HTTP mocking made easy for Go.',
       '- <a href="//github.com/jsdocs/jsdocs">jsdocs</a> - 2015 - Free documentation hosting for the JS community.',
