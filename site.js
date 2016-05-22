@@ -77,10 +77,13 @@ $(function () {
 
   function bio () {
     return join([
-      '25 yo. Full stack dev. Geek.',
+      '25 yo. Full Stack Polyglot developer.',
+      'Programming since 13 yo.',
+      'Passionate geek.',
       'I code for fun.',
       'I like clean and elegant code.',
       'Open source obsessive-compulsive coder.',
+      'Worked for big, small and start-up companies.'
     ])
   }
 
@@ -89,8 +92,8 @@ $(function () {
       '- Try to keep humble.',
       '- Invest time building things that you believe in.',
       '- Trust your instincts.',
-      '- Curiosity is the road to the knowledge. Keep it as much as you can.',
-      '- Put passion in every thing you do.',
+      '- Curiosity is the road to knowledge. Keep it as much as you can.',
+      '- Put passion in everything you do.',
       '- Don\'t waste time with assholes. Unfortunately there\'re a bunch out there.',
       '- Fail a lot. Fail often. Do it as soon as possible, do it quickly and learn the lesson.',
       '- Reinveting the wheel is not implicitely bad, you can learn a lot doing it.',
