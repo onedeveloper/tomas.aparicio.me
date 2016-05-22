@@ -77,13 +77,13 @@ $(function () {
 
   function bio () {
     return join([
-      '25 yo. Full Stack Polyglot developer.',
-      'Programming since 13 yo.',
-      'Passionate geek.',
+      '25 yo. Programming since 13 yo.',
+      'Full stack polyglot developer.',
       'I code for fun.',
       'I like clean and elegant code.',
       'Open source obsessive-compulsive coder.',
-      'Worked for big, small and start-up companies.'
+      'I like programming, computer protocols and telecommunications.',
+      'Worked for big, small and start-up companies for more than 6 years.'
     ])
   }
 
@@ -126,8 +126,9 @@ $(function () {
       '- Bourne Shell (###--)',
       '- C (##---)',
       '- Clojure (##---)',
-      '- Swift (#----)',
-      '- Scala (#----)',
+      '- Swift (##---)',
+      '- Scala (##---)',
+      '- Java (##---)',
       '- Rust (#----)',
       '- C++ (#----)',
       '- Haskell (#----)',
