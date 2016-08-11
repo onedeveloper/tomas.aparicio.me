@@ -80,11 +80,11 @@ $(function () {
     return join([
       '25 yo. Programming since 13 yo.',
       'Full stack polyglot developer.',
+      'Open source obsessive-compulsive contributor.',
       'I code for fun.',
       'I like clean and elegant code.',
-      'Open source obsessive-compulsive coder.',
       'I like programming, computer protocols and telecommunications.',
-      'Worked for big, small and start-up companies for more than 6 years.'
+      'Worked for big, small and start-up companies for more than 7 years.'
     ])
   }
 
