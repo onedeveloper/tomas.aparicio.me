@@ -72,15 +72,19 @@ $(function () {
       '- <a href="http://twitter.com/h2non">twitter</a>',
       '- <a href="https://stackoverflow.com/users/4100223/tomas">stackoverflow</a>',
       '- <a href="https://ie.linkedin.com/in/tomasaparicio">linkedin</a>',
+      '- <a href="https://medium.com/h2non">blog</a>',
     ])
   }
 
   function bio () {
     return join([
-      '25 yo. Full stack dev. Geek.',
+      '25 yo. Programming since 13 yo.',
+      'Full stack polyglot developer.',
+      'Open source obsessive-compulsive contributor.',
       'I code for fun.',
       'I like clean and elegant code.',
-      'Open source obsessive-compulsive coder.',
+      'I like programming, computer protocols and telecommunications.',
+      'Worked for big, small and start-up companies for more than 7 years.'
     ])
   }
 
@@ -89,8 +93,8 @@ $(function () {
       '- Try to keep humble.',
       '- Invest time building things that you believe in.',
       '- Trust your instincts.',
-      '- Curiosity is the road to the knowledge. Keep it as much as you can.',
-      '- Put passion in every thing you do.',
+      '- Curiosity is the road to knowledge. Keep it as much as you can.',
+      '- Put passion in everything you do.',
       '- Don\'t waste time with assholes. Unfortunately there\'re a bunch out there.',
       '- Fail a lot. Fail often. Do it as soon as possible, do it quickly and learn the lesson.',
       '- Reinveting the wheel is not implicitely bad, you can learn a lot doing it.',
@@ -116,19 +120,22 @@ $(function () {
       'Languages:',
       '- JavaScript (#####)',
       '- Go (####-)',
-      '- HTML/CSS (####-)',
-      '- Ruby (###--)',
-      '- PHP (###--)',
+      '- HTML/CSS (#####)',
+      '- Python (####-)',
+      '- Ruby (####-)',
+      '- PHP (####-)',
       '- Bourne Shell (###--)',
-      '- Python (##---)',
       '- C (##---)',
       '- Clojure (##---)',
-      '- Swift (#----)',
-      '- Scala (#----)',
-      '- Haskell (#----)',
-      '- Erlang (#----)',
+      '- Swift (##---)',
+      '- Scala (##---)',
+      '- Java (##---)',
       '- Rust (#----)',
+      '- C++ (#----)',
+      '- Haskell (#----)',
       '- Elixir (#----)',
+      '- Erlang (#----)',
+      '- OCaml (#----)',
       '',
       'Human Languages:',
       '- Spanish (#####)',
@@ -149,7 +156,8 @@ $(function () {
 
   function projects () {
     return join([
-      'Relevant personal open source projects:',
+      'Some relevant projects:',
+      '- <a href="//github.com/h2non/baloo">baloo</a> - 2016 - Expressive end-to-end HTTP API testing made easy in Go.',
       '- <a href="//vinxi.github.io">vinxi</a> - 2016 - Hackable, highly modular web proxy toolkit written in Go.',
       '- <a href="//github.com/h2non/gentleman">gentleman</a> - 2016 - Full-featured plugin-driven HTTP client toolkit for Go.',
       '- <a href="//github.com/h2non/gock">gock</a> - 2016 - Versatile HTTP mocking made easy for Go.',
