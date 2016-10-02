@@ -1,0 +1,713 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Tomás Aparicio</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Tomás Aparicio
+					</h1>
+					<h2>
+						Full Stack Developer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">tomas {at} aparicio.me</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="http://tomas.aparicio.me">http://tomas.aparicio.me</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>25 yo. Programming since 13. Full stack polyglot developer. Open source obsessive-compulsive contributor. I code for fun. I like clean, elegant code, programming, computer protocols and telecommunications. Worked for big, small and start-up companies for more than 7 years.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Twitter
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://twitter.com/h2non">h2non</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Github
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/h2non">h2non</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						StackOverflow
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://stackoverflow.com/users/4100223/tomas">tomas</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						LinkedIn
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.linkedin.com/in/tomasaparicio">TomasAparicio</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Flashpoint</span>
+					<span class="date">
+						May 2016 — Present
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.flashpoint.com">https://www.flashpoint.com</a>
+				</div>
+				<div class="position">
+					Full Stack Developer
+				</div>
+				<div class="summary">
+					<p>Flashpoint delivers Business Risk Intelligence (BRI) to empower business units and functions across organizations to make better decisions and mitigate risk. The company&#x27;s unique Deep &amp; Dark Web data, expertise, and technology enable our customers to glean intelligence that informs risk and protects their ability to operate. Fortune 500 and government customers utilize Flashpoint&#x27;s intelligence across the enterprise, including bolstering cybersecurity, confronting fraud, detecting insider threats, enhancing physical security, assessing M&amp;A opportunities, and addressing vendor risk and supply chain integrity. For corporations with limited experience availing themselves of Deep &amp; Dark Web intelligence, Flashpoint has tailored offerings that deliver comprehensive reporting and monitoring on their behalf. Flashpoint is backed by Greycroft Partners, TechOperators, K2 Intelligence, Jump Capital, Leaders Fund, Bloomberg Beta, and Cisco Investments.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Guidecentral</span>
+					<span class="date">
+						January 2015 — April 2016
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.guidecentr.al">https://www.guidecentr.al</a>
+				</div>
+				<div class="position">
+					CTO and Lead Developer
+				</div>
+				<div class="summary">
+					<p>Guidecentral is an online destination for Makers and anyone interested in DIY (do-it-yourself). We help Makers develop their presence and grow their business by distributing and promoting their DIY projects to a global audience. We also provide DIY fans a simple way to discover and consume  projects on the web and mobile. The company was adquired in March 2016 by wikiHow Inc, a San Francisco based company with more than 100M monthly users and leader in the how-to industry. We worked as small, remote, asynchronous team located in 4 different countries.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Created a new product platform from scratch</li>
+					<li class="bullet">Created a new backend from scratch with high test coverage, clean and modular code</li>
+					<li class="bullet">Created new frontend apps and Android/iOS mobile apps from scratch - <a href="https://www.guidecentr.al">https://www.guidecentr.al</a></li>
+					<li class="bullet">Reduced technical debt considerably</li>
+					<li class="bullet">Worked with the following language/technologies: JavaScript / Node.js (ES6/7), Go, Ruby, Java, Swift, AngularJS, MongoDB, Redis, Heroku, AWS, Parse, Calabash / Espresso.</li>
+					<li class="bullet">Created multiple open source JavaScript/Go libraries/packages currently used by hundred of individuals and companies</li>
+					<li class="bullet">Created an open source fast and scalable image processing HTTP microservice written in Go + C for massive processing of images - <a href="https://github.com/h2non/imaginary">https://github.com/h2non/imaginary</a></li>
+					<li class="bullet">Created node.js HTTP proxy library to easily build reverse proxies with custom and extensible logic - <a href="https://github.com/h2non/rocky">https://github.com/h2non/rocky</a></li>
+					<li class="bullet">Created node.js HTTP proxy library to test the resiliciency of services simulating negative network scenarios. Used by Amazon and several other companies - <a href="https://github.com/h2non/toxy">https://github.com/h2non/toxy</a></li>
+					<li class="bullet">Created a small node.js utility for video rendering using ffmpeg - <a href="https://github.com/h2non/videoshow">https://github.com/h2non/videoshow</a></li>
+					<li class="bullet">Created a JavaScript library to build programmatic HTTP API client in a declarative and expressive way - <a href="https://github.com/h2non/theon">https://github.com/h2non/theon</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>BBVA Innotech</span>
+					<span class="date">
+						January 2014 — December 2014
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.bbva.com">https://www.bbva.com</a>
+				</div>
+				<div class="position">
+					Full Stack Developer
+				</div>
+				<div class="summary">
+					<p>Polyglot developer (JavaScript, Go, Ruby, Python, Scala, Clojure...). R&amp;D and DevOps. I worked in the Digital Banking division as part of the Innovation in Technology department. We developed large-scale systems to support millions of users. As part of the Innovation department, our main goal was to introduce and develop new technologies in their Digital Banking division and, as a result, to promote, evangelize, simplify and lead best practices within the organization. We worked hard to promote a disruptive, pragmatic and non-dogmatic philosophy and way of thinking in the bank&#x27;s technical departments. We worked with cutting-edge technologies, liaised with industry leaders such as RedHat and Google, and most importantly we led by example and created internal capabilities through the development of multiple open source projects. Furthermore, one of our main achievements was the introduction of multiple reactive system architecture models based on scalable and fault tolerance microservices.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Developed and co-designed tools, library and architectures for resilient distributed microservice-oriented systems</li>
+					<li class="bullet">Developed and designed an open source project written in Ruby for simplified cloud deployment - <a href="https://github.com/innotech/dployr">https://github.com/innotech/dployr</a></li>
+					<li class="bullet">Developed and designed an open source library for reliable HTTP communication across distributed, fault-tolerant services, today used by hundred of large/small companies - <a href="http://resilient-http.github.io/">http://resilient-http.github.io/</a></li>
+					<li class="bullet">Worked with the following language/technologies: - NoSQL databases: MongoDB, Redis, InfluxDB, CouchDB. - Queues: RabbitMQ, ZeroMQ, ActiveMQ, Kue. - Languages: Node.js, Go, Ruby, Python, Scala + Spray + Akka, Clojure. - Cloud providers: OpenStack, Amazon AWS, Google Cloud Platform, Heroku. - DevOps: Puppet, Foreman, Ansible, Fog, ServerSpec, Docker, Fig, Dployr, Terraform. - Continuous Delivery &amp; Integration: Bamboo, GoCD, Codeship, Travis. - Real time processing: Storm, Kafka. - Service discovery and balancing: Hydra, Consul, confd, etcd.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Adesis Netlife</span>
+					<span class="date">
+						November 2012 — December 2013
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.adesis.com">http://www.adesis.com</a>
+				</div>
+				<div class="position">
+					Full Stack Developer
+				</div>
+				<div class="summary">
+					<p>I worked as Full Stack developer and Software Architect involved in multiple large projects for financial companies, mostly for the BBVA bank in Madrid, Spain.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Refactored a Backbone JavaScript SPA application using memotization/caching strategies and reducing the DOM rendering painting cycles by reducing unnecessary DOM nodes mutations.</li>
+					<li class="bullet">Created a JavaScript library built-on-top of Adobe&#x27;s Omniture to efficient and versatile analytics reporting across bank&#x27;s public websites. The library is still used in production, used by millions of bank&#x27;s customers.</li>
+					<li class="bullet">Created multiple open source node.js packages still used by the community - Example: <a href="https://github.com/AdesisNetlife/grunt-pug-i18n">https://github.com/AdesisNetlife/grunt-pug-i18n</a></li>
+					<li class="bullet">Created a self-contained, fully portable Windows development environment for FrontEnd developers - <a href="https://github.com/AdesisNetlife/yawds">https://github.com/AdesisNetlife/yawds</a></li>
+					<li class="bullet">Created an open standard to store user credentials in a safe and reliable way - <a href="https://github.com/AdesisNetlife/authrc">https://github.com/AdesisNetlife/authrc</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Synergias Media</span>
+					<span class="date">
+						Febrary 2010 — August 2012
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.synergias.com">http://www.synergias.com</a>
+				</div>
+				<div class="position">
+					Full Stack Developer
+				</div>
+				<div class="summary">
+					<p>Full stack developer leading multiple backend applications in PHP and JavaScript (web and Node.js). My job included a wide range of technical tasks, from backend and frontend development to sysadmin roles such as configuring, managing and scaling HTTP servers such as Nginx, Apache, Squid and Varnish, and the maintenance of multiple servers based on GNU/Linux and Windows. During my last year with the company I was mainly focused on building a brand new product which consisted in the development of a JavaScript framework to build reusable and extensible GIS based web applications. This framework was built on top of ExtJS and Google Maps. I had previously developed a Windows Mobile app that helped police departments in Valencia Spain to manage their traffic fines.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Created multiple PHP webapps using CodeIgniter and Kohana</li>
+					<li class="bullet">Created a microweb framework in PHP for easy HTTP routing and MySQL ORM access</li>
+					<li class="bullet">Created from scratch a Windows Mobile app for traffic fines used by multiple police&#x27;s departments in Spain</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Developer &amp; Sysadmin</span>
+					<span class="date">
+						May 2008 — December 2009
+					</span>
+				</h4>
+				<div class="position">
+					Freelance
+				</div>
+				<div class="summary">
+					<p>Part-time job providing freelance consulting service to several small companies in Spain. I created a monitoring system for a photovoltaic power plant, developing both the backend and frontend. The project aimed to cover low-level hardware communication with Atersa software, data scraping layer via TCP, data persistence collector and time metrics analysis, notifications and web dashboard for data visualization and final user reporting. I also covered weather metrics and 15 day predictions of energy production based on simple calculus of historical averagea and real time weather data.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Created a monitoring system for a photovoltaic power plant, developing both the backend and frontend using MySQL, PHP and JS</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>guide.net</span>
+					<span class="date">
+						2010 — 2014
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://guifi.net">http://guifi.net</a>
+				</div>
+				<div class="position">
+					Telecommunications Engineer &amp; Software Developer
+				</div>
+				<div class="summary">
+					<p>Free/Open network wireless-driven parallel project to Internet</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Built, designed and configured a Wireless network of about 10 interconnected nodes across 10km using Mikrotik and Ubiquiti hardware and firmware. Used OSPF for dynamic nodes routing</li>
+					<li class="bullet">Built a home server providing multiple services across the guifi.net network, such as SAMBA/CIFS, DNS resolution, Web Hosting, FTP, VPN and Forward proxy for Internet access</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Abastos Technical School</span>
+					<span class="date">
+						2010-09 — 2012-07
+					</span>
+				</h4>
+				<div class="area">
+					Information Technology
+				</div>
+				<div class="studyType">
+					Higher Technician in Software Development
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Abastos Technical School</span>
+					<span class="date">
+						2008-09 — 2010-07
+					</span>
+				</h4>
+				<div class="area">
+					Information Technology
+				</div>
+				<div class="studyType">
+					Technician in Software Development
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Self-taught</span>
+					<span class="date">
+						2003 — present
+					</span>
+				</h4>
+				<div class="area">
+					Information Technology
+				</div>
+				<div class="studyType">
+					
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Programming Languages</h4>
+				</div>
+				<ul class="keywords">
+					<li>JavaScript (#####)</li>
+					<li>Go (####-)</li>
+					<li>HTML/CSS (####-)</li>
+					<li>Python (####-)</li>
+					<li>Ruby (####-)</li>
+					<li>PHP (####-)</li>
+					<li>Bourne Shell (###--)</li>
+					<li>C (##---)</li>
+					<li>Clojure (##---)</li>
+					<li>Scala (##---)</li>
+					<li>Swift (##---)</li>
+					<li>Java (##---)</li>
+					<li>Haskell (#----)</li>
+					<li>Elixir (#----)</li>
+					<li>Haskell (#----)</li>
+					<li>Erlang (#----)</li>
+					<li>OCaml (#----)</li>
+					<li>D (#----)</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Spanish</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Professional competency
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Italian</strong>
+				</div>
+				<div class="fluency">
+					Fluent
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Calatan</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>programming</h4>
+				</div>
+				<ul class="keywords">
+					<li>programming languages</li>
+					<li>functional programming</li>
+					<li>programming paradigms</li>
+					<li>design patterns</li>
+					<li>parsers / compilers</li>
+					<li>clean code</li>
+					<li>pragmatic code</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>open source</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>network protocols</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>telecommunications</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>traveling</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>entrepreneurship</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>renovable energy</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>universe exploration</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>italian food</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>tennis</h4>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="references" class="row">
+		<aside class="col-sm-3">
+			<h3>References</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>I have been working with Tomás for one year ever looking for a new challenge. Tomás is very innovative engineer, able to attack complex problems and provide simple solutions. He is an out of the box thinker and capable of providing end-to-end cross-platform designs, thanks his extensive knowledge of every field in software technology. When some specific solution, product or network does not exist, he built one.</p>
+					<p class="name">
+						<strong>— José María San Jose Juarez - Head of Innovation in Technology at BBVA bank</strong>
+					</p>
+				</blockquote>
+			</div>
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>I worked closely with Tomás during 2014 in the Innovation department at BBVA in multiple projects. Tomás is a very passionate and talented developer. He have multidisciplinary skills, from programming to computer systems, networks, protocols and the Web. He&#x27;s a polyglot developer, with strong skills in interpreted languages such as JavaScript, Ruby and Python, but having the hability to learn new ones very easily, such as Go, Rust, Clojure, Haskell... He also enjoys investigating without limits to solve a problem and always learning new technologies and taking the open source philosophy as reference when coding. He is also an active contributor of the open source. Tomas is those kind of guys that you can always learn something from him. Definitely it was a really great experience working with Tomás and I would not mind to repeat the experience in the future</p>
+					<p class="name">
+						<strong>— Germán Ramos - Software Architect at BBVA bank</strong>
+					</p>
+				</blockquote>
+			</div>
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>I had the great pleasure to working with Tomás in the development of a large-scale application in the BBVA. In the time that we met us, I saw in him a great mastery of the technologies surrounding the Web, from communication protocols, to the different APIs of the browser; Likewise, he showed to have an extensive knowledge of design patterns and software architecture. He is very passionate about his work, delving in related technologies with the solutions he posed. Creativity and innovation are present in his daily life, looking through them for get the most optimal result, both technical as in the business side. Working with him has been a very enriching experience for me and of course for the project on which we met. I hope to have the pleasure to work with him in the future</p>
+					<p class="name">
+						<strong>— Alberto Tena Lopez - Front End Team Leader at BBVA bank</strong>
+					</p>
+				</blockquote>
+			</div>
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>I worked with Tomas for 1 year in several banking projects. Tomas is always learning, digging into latest technologies (from development to infrastructure stuff), and proposing the best ones. Even if some tool/functionality is desired in a project, and there is nothing similar out there, he is not afraid of doing it itself, coming up with great solutions. He is a good worker and better guy</p>
+					<p class="name">
+						<strong>— Jose Luis Lucas Simarro - DevOps Engineer at BBVA bank</strong>
+					</p>
+				</blockquote>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	</div>
+	
+	</body>
+</html>

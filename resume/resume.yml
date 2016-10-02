@@ -1,0 +1,218 @@
+basics:
+  name: 'Tomás Aparicio'
+  label: 'Full Stack Developer'
+  picture: 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/000/207/29d/3d8f240.jpg'
+  email: 'tomas {at} aparicio.me'
+  website: 'http://tomas.aparicio.me'
+  summary: '25 yo. Programming since 13. Full stack polyglot developer. Open source obsessive-compulsive contributor. I code for fun. I like clean, elegant code, programming, computer protocols and telecommunications. Worked for big, small and start-up companies for more than 7 years.'
+  location:
+    country: Ireland
+    city: Dublin
+    countryCode: IE
+    region: Dublin
+  profiles:
+    -
+      network: Twitter
+      username: h2non
+      url: 'https://twitter.com/h2non'
+    -
+      network: Github
+      username: h2non
+      url: 'https://github.com/h2non'
+    -
+      network: StackOverflow
+      username: tomas
+      url: 'https://stackoverflow.com/users/4100223/tomas'
+    -
+      network: LinkedIn
+      username: TomasAparicio
+      url: 'https://www.linkedin.com/in/tomasaparicio'
+work:
+  -
+    company: Flashpoint
+    position: 'Full Stack Developer'
+    website: 'https://www.flashpoint.com'
+    startDate: 'May 2016'
+    endDate: Present
+    summary: 'Flashpoint delivers Business Risk Intelligence (BRI) to empower business units and functions across organizations to make better decisions and mitigate risk. The company''s unique Deep & Dark Web data, expertise, and technology enable our customers to glean intelligence that informs risk and protects their ability to operate. Fortune 500 and government customers utilize Flashpoint''s intelligence across the enterprise, including bolstering cybersecurity, confronting fraud, detecting insider threats, enhancing physical security, assessing M&A opportunities, and addressing vendor risk and supply chain integrity. For corporations with limited experience availing themselves of Deep & Dark Web intelligence, Flashpoint has tailored offerings that deliver comprehensive reporting and monitoring on their behalf. Flashpoint is backed by Greycroft Partners, TechOperators, K2 Intelligence, Jump Capital, Leaders Fund, Bloomberg Beta, and Cisco Investments.'
+    highlights: []
+  -
+    company: Guidecentral
+    position: 'CTO and Lead Developer'
+    website: 'https://www.guidecentr.al'
+    startDate: 'January 2015'
+    endDate: 'April 2016'
+    summary: 'Guidecentral is an online destination for Makers and anyone interested in DIY (do-it-yourself). We help Makers develop their presence and grow their business by distributing and promoting their DIY projects to a global audience. We also provide DIY fans a simple way to discover and consume  projects on the web and mobile. The company was adquired in March 2016 by wikiHow Inc, a San Francisco based company with more than 100M monthly users and leader in the how-to industry. We worked as small, remote, asynchronous team located in 4 different countries.'
+    highlights:
+      - 'Created a new product platform from scratch'
+      - 'Created a new backend from scratch with high test coverage, clean and modular code'
+      - 'Created new frontend apps and Android/iOS mobile apps from scratch - https://www.guidecentr.al'
+      - 'Reduced technical debt considerably'
+      - 'Worked with the following language/technologies: JavaScript / Node.js (ES6/7), Go, Ruby, Java, Swift, AngularJS, MongoDB, Redis, Heroku, AWS, Parse, Calabash / Espresso.'
+      - 'Created multiple open source JavaScript/Go libraries/packages currently used by hundred of individuals and companies'
+      - 'Created an open source fast and scalable image processing HTTP microservice written in Go + C for massive processing of images - https://github.com/h2non/imaginary'
+      - 'Created node.js HTTP proxy library to easily build reverse proxies with custom and extensible logic - https://github.com/h2non/rocky'
+      - 'Created node.js HTTP proxy library to test the resiliciency of services simulating negative network scenarios. Used by Amazon and several other companies - https://github.com/h2non/toxy'
+      - 'Created a small node.js utility for video rendering using ffmpeg - https://github.com/h2non/videoshow'
+      - 'Created a JavaScript library to build programmatic HTTP API client in a declarative and expressive way - https://github.com/h2non/theon'
+  -
+    company: 'BBVA Innotech'
+    position: 'Full Stack Developer'
+    website: 'https://www.bbva.com'
+    startDate: 'January 2014'
+    endDate: 'December 2014'
+    summary: 'Polyglot developer (JavaScript, Go, Ruby, Python, Scala, Clojure...). R&D and DevOps. I worked in the Digital Banking division as part of the Innovation in Technology department. We developed large-scale systems to support millions of users. As part of the Innovation department, our main goal was to introduce and develop new technologies in their Digital Banking division and, as a result, to promote, evangelize, simplify and lead best practices within the organization. We worked hard to promote a disruptive, pragmatic and non-dogmatic philosophy and way of thinking in the bank''s technical departments. We worked with cutting-edge technologies, liaised with industry leaders such as RedHat and Google, and most importantly we led by example and created internal capabilities through the development of multiple open source projects. Furthermore, one of our main achievements was the introduction of multiple reactive system architecture models based on scalable and fault tolerance microservices.'
+    highlights:
+      - 'Developed and co-designed tools, library and architectures for resilient distributed microservice-oriented systems'
+      - 'Developed and designed an open source project written in Ruby for simplified cloud deployment - https://github.com/innotech/dployr'
+      - 'Developed and designed an open source library for reliable HTTP communication across distributed, fault-tolerant services, today used by hundred of large/small companies - http://resilient-http.github.io/'
+      - 'Worked with the following language/technologies: - NoSQL databases: MongoDB, Redis, InfluxDB, CouchDB. - Queues: RabbitMQ, ZeroMQ, ActiveMQ, Kue. - Languages: Node.js, Go, Ruby, Python, Scala + Spray + Akka, Clojure. - Cloud providers: OpenStack, Amazon AWS, Google Cloud Platform, Heroku. - DevOps: Puppet, Foreman, Ansible, Fog, ServerSpec, Docker, Fig, Dployr, Terraform. - Continuous Delivery & Integration: Bamboo, GoCD, Codeship, Travis. - Real time processing: Storm, Kafka. - Service discovery and balancing: Hydra, Consul, confd, etcd.'
+  -
+    company: 'Adesis Netlife'
+    position: 'Full Stack Developer'
+    website: 'http://www.adesis.com'
+    startDate: 'November 2012'
+    endDate: 'December 2013'
+    summary: 'I worked as Full Stack developer and Software Architect involved in multiple large projects for financial companies, mostly for the BBVA bank in Madrid, Spain.'
+    highlights:
+      - 'Refactored a Backbone JavaScript SPA application using memotization/caching strategies and reducing the DOM rendering painting cycles by reducing unnecessary DOM nodes mutations.'
+      - 'Created a JavaScript library built-on-top of Adobe''s Omniture to efficient and versatile analytics reporting across bank''s public websites. The library is still used in production, used by millions of bank''s customers.'
+      - 'Created multiple open source node.js packages still used by the community - Example: https://github.com/AdesisNetlife/grunt-pug-i18n'
+      - 'Created a self-contained, fully portable Windows development environment for FrontEnd developers - https://github.com/AdesisNetlife/yawds'
+      - 'Created an open standard to store user credentials in a safe and reliable way - https://github.com/AdesisNetlife/authrc'
+  -
+    company: 'Synergias Media'
+    position: 'Full Stack Developer'
+    website: 'http://www.synergias.com'
+    startDate: 'Febrary 2010'
+    endDate: 'August 2012'
+    summary: 'Full stack developer leading multiple backend applications in PHP and JavaScript (web and Node.js). My job included a wide range of technical tasks, from backend and frontend development to sysadmin roles such as configuring, managing and scaling HTTP servers such as Nginx, Apache, Squid and Varnish, and the maintenance of multiple servers based on GNU/Linux and Windows. During my last year with the company I was mainly focused on building a brand new product which consisted in the development of a JavaScript framework to build reusable and extensible GIS based web applications. This framework was built on top of ExtJS and Google Maps. I had previously developed a Windows Mobile app that helped police departments in Valencia Spain to manage their traffic fines.'
+    highlights:
+      - 'Created multiple PHP webapps using CodeIgniter and Kohana'
+      - 'Created a microweb framework in PHP for easy HTTP routing and MySQL ORM access'
+      - 'Created from scratch a Windows Mobile app for traffic fines used by multiple police''s departments in Spain'
+  -
+    company: 'Developer & Sysadmin'
+    position: Freelance
+    startDate: 'May 2008'
+    endDate: 'December 2009'
+    summary: 'Part-time job providing freelance consulting service to several small companies in Spain. I created a monitoring system for a photovoltaic power plant, developing both the backend and frontend. The project aimed to cover low-level hardware communication with Atersa software, data scraping layer via TCP, data persistence collector and time metrics analysis, notifications and web dashboard for data visualization and final user reporting. I also covered weather metrics and 15 day predictions of energy production based on simple calculus of historical averagea and real time weather data.'
+    highlights:
+      - 'Created a monitoring system for a photovoltaic power plant, developing both the backend and frontend using MySQL, PHP and JS'
+volunteer:
+  -
+    organization: guide.net
+    position: 'Telecommunications Engineer & Software Developer'
+    website: 'http://guifi.net'
+    startDate: '2010'
+    endDate: '2014'
+    summary: 'Free/Open network wireless-driven parallel project to Internet'
+    highlights:
+      - 'Built, designed and configured a Wireless network of about 10 interconnected nodes across 10km using Mikrotik and Ubiquiti hardware and firmware. Used OSPF for dynamic nodes routing'
+      - 'Built a home server providing multiple services across the guifi.net network, such as SAMBA/CIFS, DNS resolution, Web Hosting, FTP, VPN and Forward proxy for Internet access'
+education:
+  -
+    institution: 'Abastos Technical School'
+    area: 'Information Technology'
+    studyType: 'Higher Technician in Software Development'
+    startDate: 2010-09
+    endDate: 2012-07
+    courses: []
+  -
+    institution: 'Abastos Technical School'
+    area: 'Information Technology'
+    studyType: 'Technician in Software Development'
+    startDate: 2008-09
+    endDate: 2010-07
+    courses: []
+  -
+    institution: Self-taught
+    area: 'Information Technology'
+    studyType: ""
+    startDate: '2003'
+    endDate: present
+    courses: []
+awards: []
+publications: []
+skills:
+  -
+    name: 'Programming Languages'
+    keywords:
+      - 'JavaScript (#####)'
+      - 'Go (####-)'
+      - 'HTML/CSS (####-)'
+      - 'Python (####-)'
+      - 'Ruby (####-)'
+      - 'PHP (####-)'
+      - 'Bourne Shell (###--)'
+      - 'C (##---)'
+      - 'Clojure (##---)'
+      - 'Scala (##---)'
+      - 'Swift (##---)'
+      - 'Java (##---)'
+      - 'Haskell (#----)'
+      - 'Elixir (#----)'
+      - 'Haskell (#----)'
+      - 'Erlang (#----)'
+      - 'OCaml (#----)'
+      - 'D (#----)'
+languages:
+  -
+    language: Spanish
+    fluency: 'Native speaker'
+  -
+    language: English
+    fluency: 'Professional competency'
+  -
+    language: Italian
+    fluency: Fluent
+  -
+    language: Calatan
+    fluency: 'Native speaker'
+interests:
+  -
+    name: programming
+    keywords:
+      - 'programming languages'
+      - 'functional programming'
+      - 'programming paradigms'
+      - 'design patterns'
+      - 'parsers / compilers'
+      - 'clean code'
+      - 'pragmatic code'
+  -
+    name: 'open source'
+  -
+    name: 'network protocols'
+  -
+    name: telecommunications
+  -
+    name: traveling
+  -
+    name: entrepreneurship
+  -
+    name: 'renovable energy'
+  -
+    name: 'universe exploration'
+  -
+    name: 'italian food'
+  -
+    name: tennis
+references:
+  -
+    name: 'José María San Jose Juarez - Head of Innovation in Technology at BBVA bank'
+    reference: 'I have been working with Tomás for one year ever looking for a new challenge. Tomás is very innovative engineer, able to attack complex problems and provide simple solutions. He is an out of the box thinker and capable of providing end-to-end cross-platform designs, thanks his extensive knowledge of every field in software technology. When some specific solution, product or network does not exist, he built one.'
+  -
+    name: 'Germán Ramos - Software Architect at BBVA bank'
+    reference: 'I worked closely with Tomás during 2014 in the Innovation department at BBVA in multiple projects. Tomás is a very passionate and talented developer. He have multidisciplinary skills, from programming to computer systems, networks, protocols and the Web. He''s a polyglot developer, with strong skills in interpreted languages such as JavaScript, Ruby and Python, but having the hability to learn new ones very easily, such as Go, Rust, Clojure, Haskell... He also enjoys investigating without limits to solve a problem and always learning new technologies and taking the open source philosophy as reference when coding. He is also an active contributor of the open source. Tomas is those kind of guys that you can always learn something from him. Definitely it was a really great experience working with Tomás and I would not mind to repeat the experience in the future'
+  -
+    name: 'Alberto Tena Lopez - Front End Team Leader at BBVA bank'
+    reference: 'I had the great pleasure to working with Tomás in the development of a large-scale application in the BBVA. In the time that we met us, I saw in him a great mastery of the technologies surrounding the Web, from communication protocols, to the different APIs of the browser; Likewise, he showed to have an extensive knowledge of design patterns and software architecture. He is very passionate about his work, delving in related technologies with the solutions he posed. Creativity and innovation are present in his daily life, looking through them for get the most optimal result, both technical as in the business side. Working with him has been a very enriching experience for me and of course for the project on which we met. I hope to have the pleasure to work with him in the future'
+  -
+    name: 'Jose Luis Lucas Simarro - DevOps Engineer at BBVA bank'
+    reference: 'I worked with Tomas for 1 year in several banking projects. Tomas is always learning, digging into latest technologies (from development to infrastructure stuff), and proposing the best ones. Even if some tool/functionality is desired in a project, and there is nothing similar out there, he is not afraid of doing it itself, coming up with great solutions. He is a good worker and better guy'
+meta:
+  url: 'https://raw.githubusercontent.com/h2non/tomas.aparicio.me/gh-pages/resume.json'
+  dateModified: 1461755909
+  format: FRESH@0.6.0
+  version: 0.1.0
