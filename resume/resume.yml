@@ -2,7 +2,7 @@ basics:
   name: 'Tomás Aparicio'
   label: 'Full Stack Developer'
   picture: 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/000/207/29d/3d8f240.jpg'
-  email: 'tomas {at} aparicio.me'
+  email: tomas@aparicio.me
   website: 'http://tomas.aparicio.me'
   summary: '25 yo. Programming since 13. Full stack polyglot developer. Open source obsessive-compulsive contributor. I code for fun. I like clean, elegant code, programming, computer protocols and telecommunications. Worked for big, small and start-up companies for more than 7 years.'
   location:
