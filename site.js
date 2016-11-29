@@ -72,6 +72,7 @@ $(function () {
       '- <a href="http://twitter.com/h2non">twitter</a>',
       '- <a href="https://stackoverflow.com/users/4100223/tomas">stackoverflow</a>',
       '- <a href="https://ie.linkedin.com/in/tomasaparicio">linkedin</a>',
+      '- <a href="https://keybase.io/h2non">keybase</a>',
       '- <a href="https://medium.com/h2non">blog</a>',
     ])
   }
