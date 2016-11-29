@@ -84,7 +84,8 @@ $(function () {
       'I code for fun.',
       'I like clean and elegant code.',
       'I like programming, computer protocols and telecommunications.',
-      'Worked for big, small and start-up companies for more than 7 years.'
+      'Interested in programming, distributed systems, software architecture, network protocols and DevOps',
+      'Worked for big, small and start-up companies for about 7 years now.'
     ])
   }
 
@@ -135,6 +136,7 @@ $(function () {
       '- Haskell (#----)',
       '- Elixir (#----)',
       '- Erlang (#----)',
+      '- Racket (#----)',
       '- OCaml (#----)',
       '',
       'Human Languages:',
@@ -156,7 +158,9 @@ $(function () {
 
   function projects () {
     return join([
-      'Some relevant projects:',
+      'Some relevant open source projects:',
+      '- <a href="//github.com/h2non/pook">pook</a> - 2016 - Versatile HTTP traffic mocking and expectations for Python.',
+      '- <a href="//github.com/h2non/paco">paco</a> - 2016 - Small utility library for asynchronous programming in Python 3.4+.',
       '- <a href="//github.com/h2non/baloo">baloo</a> - 2016 - Expressive end-to-end HTTP API testing made easy in Go.',
       '- <a href="//vinxi.github.io">vinxi</a> - 2016 - Hackable, highly modular web proxy toolkit written in Go.',
       '- <a href="//github.com/h2non/gentleman">gentleman</a> - 2016 - Full-featured plugin-driven HTTP client toolkit for Go.',
