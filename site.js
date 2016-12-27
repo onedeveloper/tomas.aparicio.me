@@ -79,7 +79,7 @@ $(function () {
 
   function bio () {
     return join([
-      '25 yo. Programming since 13 yo.',
+      '26 yo. Programming since 13 yo.',
       'Full stack polyglot developer.',
       'Open source obsessive-compulsive contributor.',
       'I code for fun.',
@@ -92,7 +92,7 @@ $(function () {
 
   function philosophy () {
     return join([
-      '- Try to keep humble.',
+      '- Keep humble.',
       '- Invest time building things that you believe in.',
       '- Trust your instincts.',
       '- Curiosity is the road to knowledge. Keep it as much as you can.',
@@ -160,6 +160,7 @@ $(function () {
   function projects () {
     return join([
       'Some relevant open source projects:',
+      '- <a href="//github.com/h2non/riprova">riprova</a> - 2016 - Retry failed operations using multiple backoff strategies in Python.',
       '- <a href="//github.com/h2non/pook">pook</a> - 2016 - Versatile HTTP traffic mocking and expectations for Python.',
       '- <a href="//github.com/h2non/paco">paco</a> - 2016 - Small utility library for asynchronous programming in Python 3.4+.',
       '- <a href="//github.com/h2non/baloo">baloo</a> - 2016 - Expressive end-to-end HTTP API testing made easy in Go.',
